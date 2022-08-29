@@ -65,6 +65,10 @@ const Home = ({navigation}:any) => {
             onPress={() => navigation.navigate('Component')}>
             View Native Base Component
           </Button>
+          <Button
+            onPress={() => navigation.navigate('Tino')}>
+            Tino Homepage
+          </Button>
         </VStack>
       </Center>
     </NativeBaseProvider>
